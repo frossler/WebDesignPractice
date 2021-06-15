@@ -1,0 +1,23 @@
+.catalog {
+	padding: 20px;
+}
+.card-img-top {
+	padding-top: 10px;
+}
+.card {
+	background: rgb(255, 240, 200);
+	img:hover {
+		filter: none;
+		transform: scale(1.15);
+		transition: all 0.4s ease-in-out;
+	  }
+}
+.btn {
+	background: #343f56;
+	border-color: #f54748;
+	&:hover {
+		background: #f54748;
+		border-color: #343f56;
+	}
+}
+

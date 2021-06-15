@@ -1,0 +1,33 @@
+@import '../functions/extends';
+
+header {
+	background-color: #fb9300;
+	font-family: 'Righteous', cursive;
+}
+
+
+.navbar {
+	img {
+		border-radius: 100%;
+	}
+}
+.branding {
+	
+	@extend %brand-letters;
+   
+}
+
+.navbar-nav {
+	a {
+		i {
+			color: #f5e6ca;
+			font-size: 38px;
+			transition: color .4s ease;
+		}
+		&:hover {
+			i {
+				color: #f54748;
+			}
+		}
+	}
+}

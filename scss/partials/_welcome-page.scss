@@ -1,0 +1,33 @@
+@import '../functions/extends';
+
+.welcome {
+	background-image: url(../images/wallpaper.jpg);
+	background-position: center;
+	height: 300px;
+	@extend %flexi;
+	h1 {
+		@extend %letters-h1;
+	}
+}
+.welcome-catalog {
+	background-image: url(../images/wallpaper2.jpg);
+	background-position: center;
+	height: 300px;
+	@extend %flexi;
+	h1 {
+		@extend %letters-h1;
+	}
+}
+.welcome-contact {
+	background-image: url(../images/wallpaper3.jpg);
+	background-position: center;
+	height: 300px;
+	@extend %flexi;
+	h1 {
+		@extend %letters-h1;
+	}
+}
+h2 {
+	@extend %letters-h2;
+}
+

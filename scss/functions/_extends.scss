@@ -1,0 +1,45 @@
+/* Extends */
+
+%flexi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%resize {
+    transform: scale(1.5);
+    transition: 1s;
+    box-shadow: black left 2px;
+}
+
+%brand-letters {
+    font-family: 'Righteous', cursive;
+    font-size: xx-large;
+    color: #343f56;
+    text-shadow: 3px 3px #f54748,
+                 6px 6px #f5e6ca;
+}
+
+%letters-h1 {
+    font-family: 'Righteous', cursive;
+    color: #fb9300;
+    text-shadow: 3px 3px #f54748,
+                 6px 6px #343f56;
+}
+
+%letters-h2 {
+    font-family: 'Righteous', cursive;
+    color: #f54748;
+    text-shadow: 2px 2px #fb9300,
+                 4px 4px #343f56;
+}
+
+%letters-h6 {
+    font-family: 'Righteous', cursive;
+    font-size: large;
+    color: #f5e6ca;
+    text-shadow: 2px 2px #f54748,
+                 3px 3px #fb9300;
+}
+
+

@@ -1,0 +1,140 @@
+/*  */
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+/* Header */
+/* Welcome */
+.welcome {
+    background-image: url(images/wallpaper.jpg);
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome-catalog {
+    background-image: url(images/wallpaper2.jpg);
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome-contact {
+    background-image: url(images/wallpaper3.jpg);
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome h1, h2{
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 166, 0);
+    text-shadow: 2px 2px black;
+}
+.welcome-catalog h1, h2{
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 166, 0);
+    text-shadow: 2px 2px black;
+}
+.welcome-contact h1, h2{
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 166, 0);
+    text-shadow: 2px 2px black;
+}
+
+/* Slider Images */
+.slider {
+    padding: 20px;
+}
+.slider img{
+    padding: 10px;
+}
+/* Slider Text */
+.text-slider {
+    padding: 20px;
+    font-family: 'Righteous', cursive;
+}
+
+/* Botón WPP flotante */
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    transition: all .2s ease-in-out;
+}
+.whatsapp-icon {
+    margin-top:13px;
+}
+.whatsapp:hover {
+      transform: scale(1.5);
+      transition: 1s;
+      box-shadow: black left 2px;
+}
+
+/* H&F */
+.navbar img {
+    border-radius: 100%;
+}
+.navbar-brand {
+    font-family: 'Righteous', cursive;
+}
+
+/* Footer */
+footer {
+    color: rgb(110, 110, 110);
+    background-color:  rgb(255, 166, 0);
+}
+.navbar-nav a i {
+    color: rgb(110, 110, 110);
+    font-size: 38px;
+    transition: color .4s ease;
+}
+.navbar-nav a:hover i {
+    color: rgb(255, 240, 200);
+}
+
+/* CATALOG */
+.catalog {
+    padding: 20px;
+}
+.card-img-top {
+    padding-top: 10px;
+    /* width: 100%;
+    height: 15vw;
+    object-fit: cover; */
+}
+.card {
+    background: rgb(255, 240, 200);
+}
+.btn {
+    background: rgb(153, 153, 153);
+    border-color: black;
+}
+.btn:hover {
+    background: rgb(228, 194, 2);
+    border-color: black;
+}
+
+/* CONTACT FORM */
+.form {
+    color: rgb(255, 240, 200);
+    font-family: 'Righteous', cursive;
+    font-size: 27px;
+    text-shadow: 2px 2px black;
+    padding: 10px;
+}
+.bigicon {
+    font-size: 35px;
+    color: rgb(255, 240, 200)F;
+}

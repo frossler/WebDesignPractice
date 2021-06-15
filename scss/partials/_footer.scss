@@ -1,0 +1,10 @@
+@import '../functions/extends';
+
+footer {
+	color: #f5e6ca;
+	background-color: #343f56;
+	a {
+		@extend %letters-h6;
+	}
+}
+

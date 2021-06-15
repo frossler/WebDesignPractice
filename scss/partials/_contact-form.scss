@@ -1,0 +1,15 @@
+form {
+    .boton-enviar {
+        padding: 10px;
+        .enviar {
+            color: #fff;
+            background: #343f56;
+            border-radius: 5px;
+                &:hover {
+                background: #f54748;
+                border-color: #343f56;
+            }
+        }
+    }
+    
+}
