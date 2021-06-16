@@ -57,7 +57,7 @@ header {
   transition: color 0.4s ease;
 }
 .navbar-nav a:hover i {
-  color: #f54748;
+  color: #ffb8b8;
 }
 
 /* Extends */
