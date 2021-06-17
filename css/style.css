@@ -188,6 +188,7 @@ footer a {
 .card img:hover {
   filter: none;
   transform: scale(1.08);
+  filter: drop-shadow(16px 16px 20px black);
   transition: all 0.4s ease-in-out;
 }
 
