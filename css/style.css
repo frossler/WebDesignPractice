@@ -51,15 +51,6 @@ header {
   border-radius: 100%;
 }
 
-.navbar-nav a i {
-  color: #f5e6ca;
-  font-size: 38px;
-  transition: color 0.4s ease;
-}
-.navbar-nav a:hover i {
-  color: #ffb8b8;
-}
-
 /* Extends */
 .welcome-contact, .welcome-catalog, .welcome {
   display: flex;
@@ -291,6 +282,35 @@ footer a {
 footer {
   color: #f5e6ca;
   background-color: #343f56;
+  text-align: center;
+}
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+.footer-nav ul li {
+  list-style: none;
+}
+.footer-nav a i {
+  color: #f5e6ca;
+  font-size: 38px;
+  transition: color 0.4s ease;
+}
+.footer-nav a:hover i {
+  color: #ffb8b8;
 }
 
 /*# sourceMappingURL=style.css.map */
