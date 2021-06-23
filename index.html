@@ -20,6 +20,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
         <!-- Icono FontAwesome CDN -->
@@ -72,7 +74,7 @@
 
     <!-- Welcome Title -->
     <section class="welcome">
-        <h1 class="text-center">DISEÑOS E IMPRESIÓN 3D EN FILAMENTO.</h1>
+        <h1 data-aos="zoom-in" class="text-center">DISEÑOS E IMPRESIÓN 3D EN FILAMENTO.</h1>
     </section>
 
     <!-- Slider Images -->
@@ -172,7 +174,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 text-dark">
             <div class="col">
               <div class="card">
-                <img src="images/imgg4.jpg" class="card-img-top" alt="Creamos">
+                <img src="images/imgg4.jpg"  data-aos="flip-up" class="card-img-top" alt="Creamos">
                 <div class="card-body">
                   <h5 class="card-title fs-4 fw-bold">Creamos.</h5>
                   <p class="card-text">Estamos a la vanguardia en cuanto a los diseños y accesorios que se pueden lograr con este tipo de impresión. Eso que viste en internet: podemos hacerlo! Y si no, lo diseñamos para vos.</p>
@@ -181,7 +183,7 @@
             </div>
             <div class="col">
               <div class="card">
-                <img src="images/imgg2.jpg" class="card-img-top" alt="Imprimimos">
+                <img src="images/imgg2.jpg" data-aos="flip-up" class="card-img-top" alt="Imprimimos">
                 <div class="card-body">
                   <h5 class="card-title fs-4 fw-bold">Imprimimos.</h5>
                   <p class="card-text">Diseños personalizados en base a la necesidad de cada cliente, para cada propósito: Diseño Decorativo, Uso Profesional o ya sea con fines de Marketing.</p>
@@ -190,7 +192,7 @@
             </div>
             <div class="col">
               <div class="card">
-                <img src="images/imgg3.jpg" class="card-img-top" alt="Lo hacemos como quieras">
+                <img src="images/imgg3.jpg"  data-aos="flip-up" class="card-img-top" alt="Lo hacemos como quieras">
                 <div class="card-body">
                   <h5 class="card-title fs-4 fw-bold">Como vos quieras.</h5>
                   <p class="card-text">Utilizamos filamentos de alta calidad de las mejores marcas, asi como también contamos con equipos de ultima generación y de los más conocidos del mercado para que tu experiencia sea grata y satisfactoria.</p>
@@ -250,7 +252,13 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      });
+    </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
