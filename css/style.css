@@ -23,7 +23,7 @@ body {
   text-shadow: 3px 3px #f54748, 6px 6px #f5e6ca;
 }
 
-.welcome-contact h1, .welcome-catalog h1, .welcome h1 {
+.not-found h1, .welcome-contact h1, .welcome-catalog h1, .welcome h1 {
   font-family: "Righteous", cursive;
   color: #fb9300;
   text-shadow: 3px 3px #f54748, 6px 6px #343f56;
@@ -71,7 +71,7 @@ header {
   text-shadow: 3px 3px #f54748, 6px 6px #f5e6ca;
 }
 
-.welcome-contact h1, .welcome-catalog h1, .welcome h1 {
+.not-found h1, .welcome-contact h1, .welcome-catalog h1, .welcome h1 {
   font-family: "Righteous", cursive;
   color: #fb9300;
   text-shadow: 3px 3px #f54748, 6px 6px #343f56;
@@ -125,7 +125,7 @@ footer a {
   text-shadow: 3px 3px #f54748, 6px 6px #f5e6ca;
 }
 
-.welcome h1, .welcome-catalog h1, .welcome-contact h1 {
+.welcome h1, .welcome-catalog h1, .welcome-contact h1, .not-found h1 {
   font-family: "Righteous", cursive;
   color: #fb9300;
   text-shadow: 3px 3px #f54748, 6px 6px #343f56;
@@ -261,7 +261,7 @@ form .boton-enviar .enviar:hover {
   text-shadow: 3px 3px #f54748, 6px 6px #f5e6ca;
 }
 
-.welcome h1, .welcome-catalog h1, .welcome-contact h1 {
+.welcome h1, .welcome-catalog h1, .welcome-contact h1, .not-found h1 {
   font-family: "Righteous", cursive;
   color: #fb9300;
   text-shadow: 3px 3px #f54748, 6px 6px #343f56;
