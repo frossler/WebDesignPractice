@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Fernando Rossler</h1>
-<h3 align="center">A passionate frontend developer from Argentina</h3>
+<h3 align="center">A passionate full-stack developer from Argentina</h3>
 
 - 🔭 I’m currently on [Training](https://frossler.github.io/frossler/index.html)
 
